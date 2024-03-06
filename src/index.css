@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Spinner {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: conic-gradient(#0000 10%, #766df4);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
+  animation: s3 1s infinite linear;
+}
+@keyframes s3 {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.cdcms_college_highlights {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: justify;
+}
+
+.cdcms_college_highlights > div {
+  overflow-x: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .cdcms_college_highlights {
+    padding: 10px;
+  }
+}
+
+.cdcms_college_highlights p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.cdcms_college_highlights h2 {
+  color: #333;
+  font-size: 24px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.cdcms_college_highlights h3 {
+  color: #333;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.cdcms_college_highlights table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.cdcms_college_highlights th,
+.cdcms_college_highlights td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+}
+
+.cdcms_college_highlights ol {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.cdcms_college_highlights ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.cdcms_college_highlights a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.cdcms_college_highlights a:hover {
+  text-decoration: underline;
+}
+
+.cdcms_cut_off {
+  max-width: 800px;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .cdcms_cut_off {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+.cdcms_section1 {
+  /* Set font family and size */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Style paragraphs */
+.cdcms_section1 p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* Style strong elements */
+.cdcms_section1 strong {
+  font-weight: normal;
+  color: #333;
+}
+
+/* Style links */
+.cdcms_section1 a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.cdcms_section1 a:hover {
+  text-decoration: underline;
+}
+
+.cdcms_section1 ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.cdcms_section1 li {
+  margin-bottom: 5px;
+}
+
+.cdcms_section1 iframe {
+  margin-top: 15px;
+}
+
+.cdcms_section1 ol {
+  margin-bottom: 15px;
+}
+
+.cdcms_section1 ol li {
+  margin-left: 20px;
+}
+
+.cdcms_section2 p {
+  text-align: justify;
+}
+
+.cdcms_section2 em {
+  font-style: italic;
+}
+
+.cdcms_section2 .cdcms_section2 {
+  background: rgb(238, 238, 238);
+  border: 1px solid rgb(204, 204, 204);
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.cdcms_section2 ul {
+  list-style-type: none;
+}
+
+.cdcms_section2 ul li {
+  text-align: justify;
+}
+
+.cdcms_section2 ol {
+  list-style-type: decimal;
+  margin-bottom: 0px;
+}
+
+.cdcms_section2 ol li {
+  text-align: justify;
+}
+
+.cdcms_section2 div {
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+}
+
+.cdcms_section2 a {
+  text-decoration: none;
+}
+
+#faq_id .accordio {
+  font-weight: bold;
+}
+
+#faq_id .accordio strong {
+  font-weight: bold;
+}
